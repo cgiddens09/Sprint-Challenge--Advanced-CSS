@@ -4,8 +4,8 @@
     justify-content: center;
 }
 
-.button(@bg, @color, @padding){
-    width: 28%;
+.button(@width, @bg, @color, @padding){
+    width: @width;
     background-color:@bg;
     color:@color;
     padding: @padding;
@@ -20,7 +20,7 @@
 }
 
 .btn{
-    .button(black, white, 3%);
+    .button(28%,black, white, 3%);
 
 }
 
