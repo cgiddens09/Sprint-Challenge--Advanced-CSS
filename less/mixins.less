@@ -1,1 +1,30 @@
 // Mixins Here
+.display{
+    display: flex;
+    justify-content: center;
+}
+
+.button(@bg, @color, @padding){
+    width: 28%;
+    background-color:@bg;
+    color:@color;
+    padding: @padding;
+    font-size: 1.6rem;
+    text-align: center;
+    border-radius: 5px;
+
+    &:hover{
+        background-color: @color;
+        color: @bg;
+    }
+}
+
+.btn{
+    .button(black, white, 3%);
+
+}
+
+.font{
+    font-size: 1.6rem;
+    color:black;
+}
