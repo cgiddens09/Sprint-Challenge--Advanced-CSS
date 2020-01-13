@@ -212,6 +212,9 @@ nav {
   padding-top: 1%;
   margin-left: 20%;
   background-color: #f4f4f4;
+  position: fixed;
+  top: 0;
+  opacity: 90%;
 }
 @media (max-width: 500px) {
   nav {
@@ -237,6 +240,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro {
+  margin-top: 13%;
 }
 .home .intro h2 {
   padding: 15px;
